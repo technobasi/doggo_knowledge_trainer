@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
 class TrainingScreen extends StatefulWidget {
+  static String routeName = 'training';
+
   const TrainingScreen({Key? key}) : super(key: key);
 
   @override
@@ -27,7 +29,8 @@ class _TrainingScreenState extends State<TrainingScreen> {
   }
 
   Future<List<Question>> loadQuestions() async {
-    var jsonString =  await rootBundle.loadString("questions/nordrhein.json");
+    var fileName = ModalRoute.of(context)?.settings.arguments as String;
+    var jsonString =  await rootBundle.loadString("questions/$fileName");
     final jsonResponse = json.decode(jsonString) as List;
     var result = jsonResponse.map<Question>(Question.fromJson).toList();
     result.shuffle();

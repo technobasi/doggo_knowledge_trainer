@@ -123,7 +123,10 @@ class _QuestionWidgetState extends State<QuestionWidget> {
               )
             ],
             if( currentIndex >= widget.questions.length) ... [
-              Center(child: Text("Du hast alle Fragen beantwortet.:)\n Starte die App neu für eine neue Runde"))
+              const Center(child: Text("Du hast alle Fragen beantwortet.:)\n Klicke zurück für eine neue Runde")),
+              ElevatedButton(onPressed: () {
+                Navigator.of(context).pop();
+              }, child: const Text("Zurück"))
             ]
           ],
         ));

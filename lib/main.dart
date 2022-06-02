@@ -1,3 +1,4 @@
+import 'package:doggo_sachverstaendigen_trainer/QuestionSelectionScreen.dart';
 import 'package:flutter/material.dart';
 
 import 'TrainingScreen.dart';
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: "Doggo Sachkundetrainer",
       theme: ThemeData(
         useMaterial3: true,
         inputDecorationTheme: InputDecorationTheme(
@@ -23,7 +24,15 @@ class MyApp extends StatelessWidget {
         ),
         primarySwatch: Colors.blue,
       ),
-      home: const TrainingScreen(),
+      initialRoute: QuestionSelectionScreen.routeName,
+      routes: {
+        QuestionSelectionScreen.routeName: (context) {
+          return const QuestionSelectionScreen();
+        },
+        TrainingScreen.routeName: (context) {
+          return const TrainingScreen();
+        }
+      },
     );
   }
 }
