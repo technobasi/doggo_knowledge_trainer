@@ -1,4 +1,4 @@
-import 'package:doggo_sachverstaendigen_trainer/TrainingScreen.dart';
+import 'package:doggo_sachverstaendigen_trainer/model/Question.dart';
 import 'package:flutter/material.dart';
 
 class QuestionWidget extends StatefulWidget {
@@ -35,6 +35,8 @@ class _QuestionWidgetState extends State<QuestionWidget> {
                 width: 300,
                 child: Text(widget.questions[currentIndex].question),
               ),
+              if(widget.questions[currentIndex].image != null) const SizedBox(height: SPACING,),
+              if(widget.questions[currentIndex].image != null) Image.asset("images/question_162.jpg"),
               const SizedBox(height: SPACING,),
               Column(
                 children: [...widget.questions[currentIndex].answers.map((answer) =>

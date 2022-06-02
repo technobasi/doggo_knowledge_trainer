@@ -1,7 +1,7 @@
-import 'package:doggo_sachverstaendigen_trainer/QuestionSelectionScreen.dart';
+import 'package:doggo_sachverstaendigen_trainer/screen/QuestionSelectionScreen.dart';
 import 'package:flutter/material.dart';
 
-import 'TrainingScreen.dart';
+import 'screen/TrainingScreen.dart';
 
 void main() {
   runApp(const MyApp());

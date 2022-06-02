@@ -1,7 +1,9 @@
-import 'package:doggo_sachverstaendigen_trainer/QuestionsWidget.dart';
+import 'package:doggo_sachverstaendigen_trainer/model/Question.dart';
+import 'package:doggo_sachverstaendigen_trainer/widget/QuestionsWidget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
+
 class TrainingScreen extends StatefulWidget {
   static String routeName = 'training';
 
@@ -39,35 +41,6 @@ class _TrainingScreenState extends State<TrainingScreen> {
 }
 
 
-class Question {
-  String question;
 
-  List<Answer> answers;
 
-  Question({
-    required this.question,
-    required this.answers
-  });
-  static Question fromJson(json) => Question(question: json['question'],
-      answers: (json['answers'] as List).map(Answer.fromJson).toList());
 
-  @override
-  String toString() {
-    return 'Question{question: $question, answers: $answers}';
-  }
-}
-
-class Answer {
-  String text;
-  bool isCorrect;
-  bool userAnswer = false;
-
-  Answer({required this.text, required this.isCorrect});
-
-  static Answer fromJson(json) => Answer(text: json['text'], isCorrect: json['isCorrect']);
-
-  @override
-  String toString() {
-    return 'Answer{text: $text, isCorrect: $isCorrect, userAnswer: $userAnswer}';
-  }
-}

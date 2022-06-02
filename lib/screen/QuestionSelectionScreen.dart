@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'TrainingScreen.dart';
-import 'globals.dart' as globals;
+import '../model/globals.dart' as globals;
 
 class QuestionSelectionScreen extends StatelessWidget {
   static String routeName = "/";

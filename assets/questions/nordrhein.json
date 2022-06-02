@@ -1,6 +1,27 @@
 [
   {
-    "question": "Können im Zusammenhang mit Straße Probleme auftreten?",
+    "question": "Welches Tier ist der Urahn des heutigen Hundes?",
+    "answers": [
+      {
+        "text": "Der Goldschakal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Der Wolf",
+        "isCorrect": true
+      },
+      {
+        "text": "Der Kojote",
+        "isCorrect": false
+      },
+      {
+        "text": "Der Dingo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Können im Zusammenhang mit Strafe Probleme auftreten?",
     "answers": [
       {
         "text": "Ja, der Hund kann Angst vor dem Hundeführer bekommen.",
@@ -30,6 +51,301 @@
       {
         "text": "Nein.",
         "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Bis zu welchem Alter bezeichnet man Hunde als \"Welpen\"?",
+    "answers": [
+      {
+        "text": "Bis zu einem Jahr.",
+        "isCorrect": false
+      },
+      {
+        "text": "Von Geburt an bis zum Abschluss der Prägephase (Sozialisationsphase), also ca. bis zum Abschluss des 4. Lebensmonats.",
+        "isCorrect": true
+      },
+      {
+        "text": "Bis zur Geschlechtsreife.",
+        "isCorrect": false
+      },
+      {
+        "text": "Bis sie nicht mehr gesäugt werden",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Woran kann man erkennen, ob sich ein Hund einem anderen gegenüber dominant verhält?",
+    "ansers": [
+      {
+        "text": "Er legt sich auf die Seite und wedelt",
+        "isCorrect": false
+      },
+      {
+        "text": "Er macht sich groß (Schwanz hoch, Ohren nach vorne, steifer Gang) und weicht Blickkontakt nicht aus.",
+        "isCorrect": true
+      },
+      {
+        "text": "Er bellt und legt die Ohren an.",
+        "isCorrect": false
+      },
+      {
+        "text": "Er legt die Schnauze oder Pfote auf den Rücken des anderen Hundes",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Wer wäre der beste Ansprechpartner, wenn es zu Problemen im Zusammenleben kommt?",
+    "answers": [
+      {
+        "text": "Der Züchter oder ein anderer Halter derselben Rasse.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ein Tierarzt, der sich auf Verhalten spezialisiert hat.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ein anderer Hundebesitzer, der seinen Hund gut unter Kontrolle hat.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ein moderner und erfahrener Hundetrainer, der im Bereich Problemverhalten speziell geschult ist.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Ihr frei laufender Hund kommt auf ihr Rufen nicht zurück. Was kann man tun?",
+    "answers": [
+      {
+        "text": "Sich so verstecken, dass man den Hund noch sehen kann und den Hund dann nach einiger Zeit aus dem Versteck heraus noch einmal rufen. Außerdem einen Gehorsamskurs buchen, denn das Rückrufkommando sollte klappen.",
+        "isCorrect": true
+      },
+      {
+        "text": "Schnell in die entgegengesetzte Richtung davonrennen und sich so für den Hund interessant machen. Außerdem schnellstmöglich Rat einholen bei einem erfahrenen und modernen Hundeausbilder, der Hund über positive Trainingstechniken erzieht.",
+        "isCorrect": true
+      },
+      {
+        "text": "Versuchen, den Hund einzufangen. Solch einen Hund kann man nie wieder ableinen.",
+        "isCorrect": false
+      },
+      {
+        "text": "Den Hund laut anschreien und mit Strafen drohen, damit er Angst bekommt und herankommt. Wenn der Hund schon älter ist, kann man nichts mehr machen.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Was kann passieren, wenn man einen Hund als Erziehungsmaßnahme häufig und hart bestraft?",
+    "answers": [
+      {
+        "text": "Er wird die Übung schnell und zuverlässig ausführen, denn so lernt er, dass er brav sein muss.",
+        "isCorrect": false
+      },
+      {
+        "text": "Er kann scheu und unsicher werden, weil er kein Vertrauen mehr zu seinem Besitzer hat.",
+        "isCorrect": true
+      },
+      {
+        "text": "Es passiert nichts Schlimmes. Hunde untereinander verhalten sich auch rigoros. Der Hund wird also große Freude bei den Übungen haben, wenn er erst verstanden hat, worum es geht.",
+        "isCorrect": false
+      },
+      {
+        "text": "Er könnte unter Umständen aggressiv reagieren, weil er sich bedroht fühlt.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Auf dem Hundespaziergang kommt einem ein Reiter entgegen. Wie soll man sich verhalten?",
+    "answers": [
+      {
+        "text": "Wenn der Hund Pferde kennt, braucht man nichts zu unternehmen, denn dann hat der Hund keine Ansgst.",
+        "isCorrect": false
+      },
+      {
+        "text": "Man sollte den Hund heranrufen und an die Leine nehmen, bis Pferd und Reiter vorbei sind und man sicher weiß, das der Hund nicht hinterherrennen wird.",
+        "isCorrect": true
+      },
+      {
+        "text": "Wenn der Reiter nur \"Schritt\" reitet, ist keine Gefahr gegeben, denn das langsame Rieten verleitet nicht zum Jagen.",
+        "isCorrect": false
+      },
+      {
+        "text": "Man sollte seinen Hund grundsätzlich unter Kontrolle nehmen, da manche Pferde auch bei ruhigen und freundlichen Hunden ängstlich reagieren und dadurch Unfälle entstehen können.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Sollte man, wenn man einen Hund übernimmt, mit dem Hund zum Tierarzt gehen, auch wenn der Hund einen gesunden Eindruck macht?",
+    "answers": [
+      {
+        "text": "Ja, damit der Tierarzt anhand des Impfpasses überprüfen kann, ob der Hund ausreichend geimpft ist.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ja, damit sich der Hund an den Tierarzt und die Abläufe in der Praxis gewöhnt.",
+        "isCorrect": true
+      },
+      {
+        "text": "Nein, so etwas ist nicht notwendig und reine Geldverschwendung.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ja, damit der Tierarzt  den Hund möglichst auch einmal gesund kennen lernen kann. Er kann dann krankheitsbedingtes Verhalten besser einordnen.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question":"Warum ist es wichtig, seinen Hund regelmäig gegen Tollwut impfen zu lassen?",
+    "answers": [
+      {
+        "text": "Die Tollwutimpfung ist gesetzlich vorgeschrieben.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tollwut ist eine Infektionskrankheit, mit der sich auch Menschen infizieren können.",
+        "isCorrect": true
+      },
+      {
+        "text": "Eine Tollwutimpfung ist überflüssig Tollwut kommt in Deutschland überhaupt nicht mehr vor.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tollwutgeimpfte Hunde stehen gesetzlich besser da als ungeimpfte.",
+        "isCorrect":true
+      }
+    ]
+  },
+  {
+    "question": "Welchen Ausdruck zeigt dieser Hund?",
+    "image": "question_162.jpg",
+    "answers": [
+      {
+        "text": "Der Hund ist neutral bis aufmerksam.",
+        "isCorrect": false
+      },
+      {
+        "text": "Der Hund ist ängstlich.",
+        "isCorrect": false
+      },
+      {
+        "text": "Der Hund droht selbstsicher.",
+        "isCorrect": true
+      },
+      {
+        "text": "Der Hund ist unterwürfig",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Sind alle Hunde gleich oder gibt es rassetypische Eigenschaften?",
+    "answers": [
+      {
+        "text":"Alle Hunde sind gleich.",
+        "isCorrect": false
+      },
+      {
+        "text": "Je nach Rasse weisen die Hunde unterschidliche Veranlagungen auf.",
+        "isCorrect": true
+      },
+      {
+        "text": "Verschiedene Rasen unterscheiden sich nur durch ihr äußeres Erscheinungsbild.",
+        "isCorrect": false
+      },
+      {
+        "text": "Rassetypische Eigenschaften gibt es nicht, aber anhand der Größe kann man eine Einteilung in \"kinderfreundlich\",\"gefährlich\",\"leicht zu erziehen\" etc.treffen.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Welche Auswirkung hat häufige und lange Zwingerhaltung auf die Wesensentwicklung des Welpen?",
+    "answers": [
+      {
+        "text":"So lernt der Hund gut alleine zu bleiben.",
+        "isCorrect": false
+      },
+      {
+        "text": "Defizite im Sozialverhalten gegenüber Menschen und Artgenossen.",
+        "isCorrect": true
+      },
+      {
+        "text": "Probleme im Bereich des häuslichen Sauberkeitstrainings.",
+        "isCorrect": true
+      },
+      {
+        "text": "Die gesundheitliche Widerstandskraft ist größer.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Was bedeutet es, wenn ein Hund einem anderen den Kopf auf den Rücken legt?",
+    "answers": [
+      {
+        "text": "Er ist unterwürfig.",
+        "isCorrect": false
+      },
+      {
+        "text": "Er macht eine Spielaufforderung.",
+        "isCorrect":false
+      },
+      {
+        "text": "Er ist müde.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es ist eine Imponiergeste.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Was hat für Hunde die größte Bedeutung im Bereich der Rangfolge?",
+    "answers": [
+      {
+        "text": "Aufmerksamkeit (Spiel, Futter, Zuwendung) fordern zu können.",
+        "isCorrect": true
+      },
+      {
+        "text": "Täglich mehrmals rausgehen zu dürfen.",
+        "isCorrect": false
+      },
+      {
+        "text": "Einen gemütlichen, ggf. erhöhten Liegeplatz zu haben.",
+        "isCorrect": false
+      },
+      {
+        "text": "Spielzeug zur freien Verfügung zu besitzen.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Besteht die Gefahr, durch Strafen einen Hund so zu schockieren, dass er das Vertrauen in einen verliert?",
+    "answers": [
+      {
+        "text": "Nein, nicht wenn man vorher ein gutes Verhältnis hatte.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ja, bei sensiblen Hunden manchmal sogar mit Kleinigkeiten, besonders wenn die Handlung für den Hund \"unlogisch\" ist.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ja, durch inkonsequentes und launisches Vorgehen.",
+        "isCorrect": true
+      },
+      {
+        "text": "Nur bei generell ängstlichen Hunden.",
+        "isCorrect": false
       }
     ]
   }
