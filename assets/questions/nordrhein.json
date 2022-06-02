@@ -1,0 +1,36 @@
+[
+  {
+    "question": "Können im Zusammenhang mit Straße Probleme auftreten?",
+    "answers": [
+      {
+        "text": "Ja, der Hund kann Angst vor dem Hundeführer bekommen.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ja, der Hund kann aggressiv werden, wenn er sich bedroht fühlt oder Schmerzen empfindet.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ja. Wenn man im falschen Moment bestraft, kann der Hund die Verbindung zwischen Strafe und unerwünschtem Verhalten nicht herstellen.",
+        "isCorrect": true
+      },
+      {
+        "text": "Nein, man braucht keine Probleme zu erwarten, denn Strafe ist etwas, was der Hund immer versteht",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kann eine Hündin bei der ersten Läufigkeit schon erfolgreich gedeckt werden?",
+    "answers": [
+      {
+        "text": "Ja.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nein.",
+        "isCorrect": true
+      }
+    ]
+  }
+]

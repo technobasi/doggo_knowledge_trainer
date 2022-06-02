@@ -1,5 +1,7 @@
+import 'package:doggo_sachverstaendigen_trainer/QuestionsWidget.dart';
 import 'package:flutter/material.dart';
-
+import 'package:flutter/services.dart';
+import 'dart:convert';
 class TrainingScreen extends StatefulWidget {
   const TrainingScreen({Key? key}) : super(key: key);
 
@@ -8,81 +10,31 @@ class TrainingScreen extends StatefulWidget {
 }
 
 class _TrainingScreenState extends State<TrainingScreen> {
-  bool questionMode = true;
-  List<Question> questions = [];
 
-  Question currentQuestion = Question(question: "Testfrage", answers: [
-    Answer(text: "Brot ist lecker?", isCorrect: true, userAnswer: false)
-  ]);
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(title: const Text("Doggotraining")),
-        body: Column(
-          children: [
-            if (questionMode) ...[
-              Text(currentQuestion.question),
-              Column(
-                children: [...currentQuestion.answers.map((answer) => Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Checkbox(
-                      onChanged: (bool? value) {
-                        setState( () {
-                          answer.userAnswer = value!;
-                        });
-                      },
-                      value: answer.userAnswer,
-                    ),
-                    Text(answer.text)
-                  ],
-                ))],
-              ),
-              ElevatedButton(
-                onPressed: () {
-                    setState(() {
-                      questionMode = !questionMode;
-                    });
-                },
-                child: const Text("Antwort prüfen"),
-              )
-            ],
-            if (!questionMode) ...[
-              const Text("Ergebnis"),
-              Column(
-                children: [...currentQuestion.answers.map((answer) => Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(
-                      color: answer.isCorrect ? Colors.green : Colors.red
-                    ),
-                    borderRadius: BorderRadius.circular(10)
-                  ),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Checkbox(
-                        onChanged: null,
-                        value: answer.userAnswer,
-                      ),
-                      Text(answer.text)
-                    ],
-                  ),
-                ))],
-              ),
-              ElevatedButton(
-                onPressed: () {
-                  setState(() {
-                    questionMode = !questionMode;
-                  });
-                },
-                child: const Text("Nächste Frage"),
-              )
-            ]
-          ],
-        ));
+    return FutureBuilder(
+      future: loadQuestions(),
+      builder: (BuildContext context, AsyncSnapshot<List<Question>> snapshot) {
+        if (snapshot.hasData) {
+          return QuestionWidget(questions: snapshot.data!,);
+        } else {
+        return const CircularProgressIndicator();
+        }
+      }
+    );
+  }
+
+  Future<List<Question>> loadQuestions() async {
+    var jsonString =  await rootBundle.loadString("questions/nordrhein.json");
+    final jsonResponse = json.decode(jsonString) as List;
+    var result = jsonResponse.map<Question>(Question.fromJson).toList();
+    result.shuffle();
+    return result;
   }
 }
+
 
 class Question {
   String question;
@@ -93,6 +45,8 @@ class Question {
     required this.question,
     required this.answers
   });
+  static Question fromJson(json) => Question(question: json['question'],
+      answers: (json['answers'] as List).map(Answer.fromJson).toList());
 
   @override
   String toString() {
@@ -103,9 +57,11 @@ class Question {
 class Answer {
   String text;
   bool isCorrect;
-  bool userAnswer;
+  bool userAnswer = false;
 
-  Answer({required this.text, required this.isCorrect, required this.userAnswer});
+  Answer({required this.text, required this.isCorrect});
+
+  static Answer fromJson(json) => Answer(text: json['text'], isCorrect: json['isCorrect']);
 
   @override
   String toString() {
