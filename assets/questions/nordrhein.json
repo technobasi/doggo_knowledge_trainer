@@ -348,5 +348,112 @@
         "isCorrect": false
       }
     ]
+  },
+  {
+    "question": "Wie häufig und wie lange sollte man mit dem Hund üben?",
+    "answers": [
+      {
+        "text": "Ein Mal am Tag eine Stunde.",
+        "isCorrect": false
+      },
+      {
+        "text": "So häufig wie es geht, aber immer nur kurz, dann kann sich der Hund am Besten konzentrieren.",
+        "isCorrect": true
+      },
+      {
+        "text": "Es ist besonders wichtig, dass man täglich immer  zur selben Zeit übt, wie lange, ist abhängig vom Trainingsstand des Hundes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Zwei Übungen auf jedem Spaziergang sind absolut ausreichend, sonst wird der Hund überfordert.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Der eigene Hund ist plötzlich in eine Rauferei verwickelt. Wie sollte man reagieren?",
+    "answers": [
+      {
+        "text": "Man sollte die raufenden Hunde solange möglichst laut anschreien, bis sie aufhören sich zu raufen.",
+        "isCorrect": false
+      },
+      {
+        "text": "Man sollte sich gr nicht einmischen. Beide Besitzer sollten sich einigen, sich kommentarlos und möglichst zügig in entgegengesetzter Richtung von den Hunden zu entfernen. Die Hunde sollten, sobald sie zum Besitzer kommen, von diesem angeleint werden, um eine mögliche zweite Kampfphase zu vermeiden",
+        "isCorrect": true
+      },
+      {
+        "text": "Wenn nur zwei Hunde in die Rauferei verwickelt sind, sollte man die Hunde trennen, indem man am Schwanz oder an den Hinterbeinen zieht, und zwar gleichzeitig bei beiden Hunden.",
+        "isCorrect": false
+      },
+      {
+        "text": "Man sollte den Hund, der angegriffen worden ist, hinterher trösten und den anderen streng zurechtweisen und bestrafen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Gibt es Dinge, die man prophylaktisch tun kann, damit der Hund gesund bleibt?",
+    "answers": [
+      {
+        "text": "Ja. Der Hund sollte z.B. regelmäßig geimpft werden.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ja, man sollte den ganzen Körper z.B. beim Bürsten täglich genau anschauen, um Veränderungen oder Parasitenbefall sofort zu erkennen",
+        "isCorrect": true
+      },
+      {
+        "text": "Ja, der Hund sollte nur das beste Futter bekommen. Das ist in aller Regel auch das teuerste.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ja, einmal wöchentlich sollte man den Hund baden.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Wenn im Mietvertrag kein Hinweis zu finden ist, ob Tierhaltung erlaubt ist, darf man sich dann einen Hund anschaffen?",
+    "answers": [
+      {
+        "text": "Nein, erst muss die Zustimmung des Vermieters eingeholt werden.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ja, aber nur einen Hund, der kleiner als 40 cm Schulterhöhe ist.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ja, Ansonsten müsste ein Haltungsverbot extra erwähnt werden.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nein, man muss erst die Zustimmung der anderen Mieter einholen,",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Welchen Ausdruck zeigt dieser Hund?",
+    "image": "question_163.jpg",
+    "answers": [
+      {
+        "text":"Der Hund ist neutral bis aufmerksam",
+        "isCorrect": false
+      },
+      {
+        "text": "Der Hund droht aus Unsicherheit",
+        "isCorrect": true
+      },
+      {
+        "text": "Der Hund ist friedfertig.",
+        "isCorrect": false
+      },
+      {
+        "text": "Der Hund ist unterwürfig",
+        "isCorrect": false
+      }
+    ]
   }
+
 ]
