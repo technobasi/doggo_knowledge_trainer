@@ -202,7 +202,7 @@
     ]
   },
   {
-    "question":"Warum ist es wichtig, seinen Hund regelmäig gegen Tollwut impfen zu lassen?",
+    "question": "Warum ist es wichtig, seinen Hund regelmäig gegen Tollwut impfen zu lassen?",
     "answers": [
       {
         "text": "Die Tollwutimpfung ist gesetzlich vorgeschrieben.",
@@ -218,7 +218,7 @@
       },
       {
         "text": "Tollwutgeimpfte Hunde stehen gesetzlich besser da als ungeimpfte.",
-        "isCorrect":true
+        "isCorrect": true
       }
     ]
   },
@@ -248,7 +248,7 @@
     "question": "Sind alle Hunde gleich oder gibt es rassetypische Eigenschaften?",
     "answers": [
       {
-        "text":"Alle Hunde sind gleich.",
+        "text": "Alle Hunde sind gleich.",
         "isCorrect": false
       },
       {
@@ -269,7 +269,7 @@
     "question": "Welche Auswirkung hat häufige und lange Zwingerhaltung auf die Wesensentwicklung des Welpen?",
     "answers": [
       {
-        "text":"So lernt der Hund gut alleine zu bleiben.",
+        "text": "So lernt der Hund gut alleine zu bleiben.",
         "isCorrect": false
       },
       {
@@ -295,7 +295,7 @@
       },
       {
         "text": "Er macht eine Spielaufforderung.",
-        "isCorrect":false
+        "isCorrect": false
       },
       {
         "text": "Er ist müde.",
@@ -438,7 +438,7 @@
     "image": "question_163.jpg",
     "answers": [
       {
-        "text":"Der Hund ist neutral bis aufmerksam",
+        "text": "Der Hund ist neutral bis aufmerksam",
         "isCorrect": false
       },
       {
@@ -454,6 +454,215 @@
         "isCorrect": false
       }
     ]
-  }
+  },
+  {
+    "question": "Welche Bedürfnisse des Hundes müssen bei artgerechter Haltung täglich ausreichend erfüllt werden?",
+    "answers": [
+      {
+        "text": "Der Hund muss ausreichend, d.h. mehrere Stunden täglich geistig und körperlich gefordert werden.",
+        "isCorrect": true
+      },
+      {
+        "text": "Der Hund muss jeden Tag ausreichend lange und merhmals täglich Sozialkontakte mit Menschen und Artgenossen haben.",
+        "isCorrect": true
+      },
+      {
+        "text": "Der Hund muss täglich mindestens zwei Mahlzeiten erhalten.",
+        "isCorrect": false
+      },
+      {
+        "text": "Der Hund sollte vorwiegend in einer Zwingeranlage mit gut isoliertem Boden gehalten werden.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Wenn man einen Welpen kauft, sollte man ....",
+    "answers": [
+      {
+        "text": "besonders in der ersten Phase viel Zeit (ggf. Urlaub) haben, um sich bestmöglich um den Hund kümmern zu können.",
+        "isCorrect": true
+      },
+      {
+        "text": "den Züchter vorher \"auf Herz und Nieren\" geprüft haben, um einen Hund mit guten charakterlichen und genetischen Anlagen zu bekommen.",
+        "isCorrect": true
+      },
+      {
+        "text": "unbedingt einen Garten haben, denn sonst ist es sehr problematisch, den Hund stubenrein zu bekommen.",
+        "isCorrect": false
+      },
+      {
+        "text": "sicher sein, dass der Hund auch längerfristig zu dem Lebensstil und den Lebensumständen passt.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Zwei Hunde kämpfen miteinander. Die Besitzer stehen daneben und schreien die Hunde an, um den Kampf zu beenden. Wie interpretieren die Hunde dieses Verhalten?",
+    "answers": [
+      {
+        "text": "Durch das Anschreien bekommen die Hunde Angst und beenden den Kampf sofort.",
+        "isCorrect": false
+      },
+      {
+        "text": "Durch die aggressive Stimmung der Besitzer werden die Hunde angestachelt weiterzukämpfen",
+        "isCorrect": true
+      },
+      {
+        "text": "Das Schreien der Besitzer beeinflusst das Verhalten der Hunde nicht",
+        "isCorrect": false
+      },
+      {
+        "text": "Hunde interessieren sich nicht für das Verhalten von Menschen.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Es kommt relativ häufig, vor dass Hunde Kinder im Gesicht verletzen. Warum?",
+    "answers": [
+      {
+        "text": "Das Gesicht des Kindes ist in Schnauzenhöhe.",
+        "isCorrect": true
+      },
+      {
+        "text": "Kinder umarmen Hunde gerne und geben ihnen Küsse. Einigen Hunden ist diese Nähe zu viel und sie versuchen sich durch Schnappen aus der Situation zu befreien.",
+        "isCorrect": true
+      },
+      {
+        "text": "Die Gesichtsverletzungen entstehen meist nicht durch Bisse, sondern wenn die Kinder angesprungen werden und dabei hinfallen.",
+        "isCorrect": false
+      },
+      {
+        "text": "Hunde verletzen unbeabsichtigt gelegentlich das Gesicht eines Kindes, wenn sie über das \"Lefzenlecken\" Beschwichtigung signalisieren wollen.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Gibt es beim Üben mit einem ängstlichen Hund besondere Dinge zu bedenken",
+    "answers": [
+      {
+        "text": "Ja. Hunde können nur lernen, wenn sie entspannt sind und keine Angst haben.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ja, man muss darauf achten, keine bedrohlichen Gesten in den Übungen zu verwenden.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ja. Mit einem ängstlichen Hund sollte man lieber gar nicht trainieren, weil er aus Angst heraus beißen könnte.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nein, mit einem ängstlichen Hund kann man trainieren, wie mit jedem anderen auch",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Gibt es Strafen, die man als \"artgerecht\" bezeichnen kann?",
+    "answers": [
+      {
+        "text": "Ja, Schläge , denn Hunde untereinander sind auch nicht zimperlich.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ja, lautes Anschreien und gleichzeitiges leichtes Schlagen mit der Zeitung.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ja, Ignorieren, wenn es die Situation zulässt.",
+        "isCorrect": true
+      },
+      {
+        "text": "Nein., Strafen können niemals \"artgerecht\" sein.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Unter welchen Umständen kann ich meinen Hund in der Öffentlichkeit mit anderen Hunden spielen lassen?",
+    "answers": [
+      {
+        "text": "Im Hundeauslaufgebiet immer",
+        "isCorrect": false
+      },
+      {
+        "text": "Wenn ich mit dem anderen Hundehalter abgeklärt habe, dass Spielkontakt erwünscht ist und beide Hunde frei laufen können.",
+        "isCorrect": true
+      },
+      {
+        "text": "Niemals an der Straße, an der Leine oder wenn sich andere Menschen oder Tiere durch die spielenden Hunde belästigt fühlen oder gefährdet werden könnten.",
+        "isCorrect": true
+      },
+      {
+        "text": "An der Straße nur, wenn die Hunde an der Leine sind. Sie könnten sonst beim Spielen auf die Fahrbahn laufen.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Wann werden die meisten Hündinnen das erste Mal läufig?",
+    "answers": [
+      {
+        "text":"Wenn sie ausgewachsen sind.",
+        "isCorrect": false
+      },
+      {
+        "text": "Zwischen 6 und 12 Monaten",
+        "isCorrect": true
+      },
+      {
+        "text": "Mit 18 Monaten.",
+        "isCorrect": false
+      },
+      {
+        "text": "Wenn man sie von Junghundefutter auf Erwachsenennahrung umstellt",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Ist eine Haftpflichtversicherung für den Hund sinnvoll?",
+    "answers": [
+      {
+        "text": "Ja, denn jeder Hund kann einen Schaden verursachen, für den sein Halter dann haftet.",
+        "isCorrect": true
+      },{
+        "text": "Es ist im Tierschutzgesetz vorgeschrieben",
+        "isCorrect": false
+      },
+      {
+        "text": "Ohne Haftpflichtversicherung darf der Hund nie frei laufen.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es ist nicht sinnvoll, sondern eine unnötige Geldausgabe.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Welchen Ausdruck zeigt dieser Hund?",
+    "image": "question_167.jpg",
+    "answers": [{
+      "text": "Der Hund ist ängstlich und unterwürfig",
+      "isCorrect": false
+    },
+      {
+        "text": "Der Hund ist neutral bis aufmerksam",
+        "isCorrect": false
+      },
+      {
+        "text": "Der Hund droht unsicher und ist erregt.",
+        "isCorrect": true
+      },
+      {
+        "text": "Der Hund zeigt eine Unterwerguntsgeste",
+        "isCorrect": false
+      }
 
+    ]
+  }
 ]
