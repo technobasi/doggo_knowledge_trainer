@@ -1,8 +1,8 @@
+import 'dart:convert';
+
 import 'package:doggo_sachverstaendigen_trainer/model/Question.dart';
 import 'package:doggo_sachverstaendigen_trainer/widget/QuestionsWidget.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'dart:convert';
 
 class TrainingScreen extends StatefulWidget {
   static String routeName = 'training';
@@ -14,33 +14,40 @@ class TrainingScreen extends StatefulWidget {
 }
 
 class _TrainingScreenState extends State<TrainingScreen> {
-
-
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
-      future: loadQuestions(),
-      builder: (BuildContext context, AsyncSnapshot<List<Question>> snapshot) {
-        if (snapshot.hasData) {
-          return QuestionWidget(questions: snapshot.data!,);
-        } else {
-        return const CircularProgressIndicator();
-        }
-      }
-    );
+        future: loadQuestions(context),
+        builder:
+            (BuildContext context, AsyncSnapshot<List<Question>> snapshot) {
+          print("test");
+          if (snapshot.hasData) {
+            return QuestionWidget(
+              questions: snapshot.data!,
+            );
+          } else {
+            return const CircularProgressIndicator();
+          }
+        });
   }
 
-  Future<List<Question>> loadQuestions() async {
+  Future<List<Question>> loadQuestions(BuildContext context) async {
     var fileName = ModalRoute.of(context)?.settings.arguments as String;
-    var jsonString =  await rootBundle.loadString("questions/$fileName");
-    final jsonResponse = json.decode(jsonString) as List;
-    var result = jsonResponse.map<Question>(Question.fromJson).toList();
-    result.shuffle();
-    return result;
+    try {
+      var jsonString = await DefaultAssetBundle.of(context)
+          .loadString("assets/questions/$fileName");
+
+      final jsonResponse = json.decode(jsonString) as List;
+      print(jsonResponse.length);
+
+      var result = jsonResponse.map<Question>(Question.fromJson).toList();
+      print("here");
+      result.shuffle();
+      return result;
+    } catch (e) {
+      print(e);
+      print("test");
+      return [];
+    }
   }
 }
-
-
-
-
-

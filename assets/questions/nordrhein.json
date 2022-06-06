@@ -43,7 +43,7 @@
   },
   {
     "question": "Woran kann man erkennen, ob sich ein Hund einem anderen gegenüber dominant verhält?",
-    "ansers": [
+    "answers": [
       {
         "text": "Er legt sich auf die Seite und wedelt",
         "isCorrect": false
@@ -167,7 +167,6 @@
       }
     ]
   },
-
   {
     "question": "Warum ist es wichtig, seinen Hund regelmäig gegen Tollwut impfen zu lassen?",
     "answers": [
@@ -274,7 +273,6 @@
       }
     ]
   },
-
   {
     "question": "Was hat für Hunde die größte Bedeutung im Bereich der Rangfolge?",
     "answers": [
@@ -380,7 +378,6 @@
       }
     ]
   },
-
   {
     "question": "Wenn im Mietvertrag kein Hinweis zu finden ist, ob Tierhaltung erlaubt ist, darf man sich dann einen Hund anschaffen?",
     "answers": [
@@ -487,7 +484,6 @@
       }
     ]
   },
-
   {
     "question": "Es kommt relativ häufig, vor dass Hunde Kinder im Gesicht verletzen. Warum?",
     "answers": [
@@ -593,7 +589,6 @@
       }
     ]
   },
-
   {
     "question": "Ist eine Haftpflichtversicherung für den Hund sinnvoll?",
     "answers": [
@@ -700,7 +695,6 @@
       }
     ]
   },
-
   {
     "question": "Ist es wichtig, mit einem Hund zu üben, dass er sich überall anfassen lässt?",
     "answers": [
@@ -806,7 +800,6 @@
       }
     ]
   },
-
   {
     "question": "Welche Rechtsgebiete können für Hundehalte relevant sein?",
     "answers": [
@@ -913,7 +906,6 @@
       }
     ]
   },
-
   {
     "question": "Welche Behandlungen können das Vertrauensverhältnis zwischen Hund und Halter schwächen?",
     "answers": [
@@ -931,7 +923,7 @@
       },
       {
         "text": "Aus Hundesicht unlogisches Verhalten.",
-        "isCorect": true
+        "isCorrect": true
       }
     ]
   },
@@ -1019,7 +1011,6 @@
       }
     ]
   },
-
   {
     "question": "Was ist zur Mitnahme von Hunden im Auto zu sagen? Kreuzen Sie die richtigen Aussagen an.",
     "answers": [
@@ -1130,7 +1121,6 @@
       }
     ]
   },
-
   {
     "question": "Was zeigt eine gute Bindung zwischen Mensch und Hund an? ",
     "answers": [
@@ -1236,7 +1226,6 @@
       }
     ]
   },
-
   {
     "question": "Darf man seinen Hund neben dem PKW herlaufen lassen?",
     "answers": [
@@ -1343,7 +1332,6 @@
       }
     ]
   },
-
   {
     "question": "Wie stellt man zwischen Mensch und Hund die Rangordnung klar?",
     "answers": [
@@ -1441,7 +1429,6 @@
       }
     ]
   },
-
   {
     "question": "Was geschieht im Falle eines Unfalls, wenn ein Hund ungesichert im Auto transportiert\nwird?",
     "answers": [
@@ -1547,7 +1534,6 @@
       }
     ]
   },
-
   {
     "question": "Ist es eine Frage des Alters eines Kindes, ob das Zusammenleben mit einem Hund\nreibungslos funktioniert?",
     "answers": [
@@ -1653,7 +1639,6 @@
       }
     ]
   },
-
   {
     "question": "Gibt es gesetzliche Vorschriften für die Zwingerhaltung von Hunden?",
     "answers": [
@@ -1697,4 +1682,4 @@
       }
     ]
   }
-]0
+]

@@ -9,6 +9,6 @@ class Answer {
 
   @override
   String toString() {
-    return 'Answer{text: $text, isCorrect: $isCorrect, userAnswer: $userAnswer';
+    return 'Answer{text: $text, isCorrect: $isCorrect, userAnswer: $userAnswer }';
   }
 }
