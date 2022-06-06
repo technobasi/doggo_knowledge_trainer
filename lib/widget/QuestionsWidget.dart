@@ -17,12 +17,6 @@ class _QuestionWidgetState extends State<QuestionWidget> {
   int currentIndex = 0;
 
   @override
-  void initState() {
-    super.initState();
-
-  }
-
-  @override
   Widget build(BuildContext context) {
 
     return Scaffold(
@@ -37,7 +31,7 @@ class _QuestionWidgetState extends State<QuestionWidget> {
                   child: Text(widget.questions[currentIndex].question),
                 ),
                 if(widget.questions[currentIndex].image != null) const SizedBox(height: SPACING,),
-                if(widget.questions[currentIndex].image != null) Image.asset("assets/images/question_162.jpg"),
+                if(widget.questions[currentIndex].image != null) Image.asset("assets/images/${widget.questions[currentIndex].image}"),
                 const SizedBox(height: SPACING,),
                 Column(
                   children: [...widget.questions[currentIndex].answers.map((answer) {

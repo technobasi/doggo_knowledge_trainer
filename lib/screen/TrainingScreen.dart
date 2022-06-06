@@ -41,12 +41,10 @@ class _TrainingScreenState extends State<TrainingScreen> {
       print(jsonResponse.length);
 
       var result = jsonResponse.map<Question>(Question.fromJson).toList();
-      print("here");
       result.shuffle();
       return result;
     } catch (e) {
       print(e);
-      print("test");
       return [];
     }
   }
