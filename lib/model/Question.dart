@@ -11,9 +11,13 @@ class Question {
     required this.answers,
     this.image
   });
-  static Question fromJson(json) => Question(question: json['question'],
-      image: json['image'],
-      answers: (json['answers'] as List).map(Answer.fromJson).toList());
+  static Question fromJson(json) {
+    Question loadedQuestion =  Question(question: json['question'],
+        image: json['image'],
+        answers: (json['answers'] as List).map(Answer.fromJson).toList());
+    loadedQuestion.answers.shuffle();
+    return loadedQuestion;
+  }
 
   @override
   String toString() {

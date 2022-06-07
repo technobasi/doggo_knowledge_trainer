@@ -113,7 +113,6 @@ class _QuestionWidgetState extends State<QuestionWidget> {
                       widget.questions[currentIndex].answers.forEach((e) {
                         e.userAnswer = false;
                       });
-                      widget.questions[currentIndex] = widget.questions[currentIndex];
                       currentIndex++;
                       questionMode = !questionMode;
                     });
