@@ -46,12 +46,11 @@ class QuestionSelectionScreen extends StatelessWidget {
               .toList(),
           GestureDetector(
             onTap: () async {
-              print("test");
               if(!await launchUrl(_kofiUrl)) throw 'Could not launch $_kofiUrl';
             },
             child: SizedBox(
                 width: 300,
-                child: Image.asset("support/kofi-button.png")),
+                child: Image.asset("assets/support/kofi-button.png")),
           ),
           SizedBox(
             height: 10,
@@ -74,7 +73,7 @@ class QuestionSelectionScreen extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      Image.asset("support/github.png"),
+                      Image.asset("assets/support/github.png"),
                       Text("Contribute on GithHub"),
                     ],
                   ),
