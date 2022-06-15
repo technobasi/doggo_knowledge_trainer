@@ -6,7 +6,7 @@ import '../model/globals.dart' as globals;
 class QuestionSelectionScreen extends StatelessWidget {
   static String routeName = "/";
   const QuestionSelectionScreen({Key? key}) : super(key: key);
-  static final Uri _githubUrl = Uri.parse('https://github.com/technobasi/doggo_sachverstaendigen_trainer');
+  static final Uri _githubUrl = Uri.parse('https://github.com/technobasi/doggo_knowledge_trainer');
   static final Uri _kofiUrl = Uri.parse('https://ko-fi.com/shadowox');
   @override
   Widget build(BuildContext context) {
