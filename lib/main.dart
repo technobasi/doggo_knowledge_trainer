@@ -1,4 +1,5 @@
-import 'package:doggo_sachverstaendigen_trainer/screen/QuestionSelectionScreen.dart';
+
+import 'package:doggo_knowledge_trainer/screen/QuestionSelectionScreen.dart';
 import 'package:flutter/material.dart';
 
 import 'screen/TrainingScreen.dart';

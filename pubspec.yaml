@@ -1,5 +1,5 @@
-name: doggo_sachverstaendigen_trainer
-description: Trainingsapp für die Hundesachverständigen Prüfung Tierärtzekammer Nordrhein
+name: doggo_knowledge_trainer
+description: Trainingsapp für die Hunde Sachkundeprüfung
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.

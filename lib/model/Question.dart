@@ -1,4 +1,6 @@
-import 'package:doggo_sachverstaendigen_trainer/model/Answer.dart';
+
+
+import 'package:doggo_knowledge_trainer/model/Answer.dart';
 
 class Question {
   String question;

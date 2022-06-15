@@ -1,11 +1,11 @@
 {
-    "name": "doggo_sachverstaendigen_trainer",
-    "short_name": "doggo_sachverstaendigen_trainer",
+    "name": "doggo_knowledge_trainer",
+    "short_name": "doggo_knowledge_trainer",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Trainingsapp für die Hundesachverständigen Prüfung Tierärtzekammer Nordrhein",
+    "description": "Trainingsapp für die Hunde Sachkundeprüfung",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "de.shadowox" "\0"
-            VALUE "FileDescription", "doggo_sachverstaendigen_trainer" "\0"
+            VALUE "FileDescription", "doggo_knowledge_trainer" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "doggo_sachverstaendigen_trainer" "\0"
+            VALUE "InternalName", "doggo_knowledge_trainer" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 de.shadowox. All rights reserved." "\0"
-            VALUE "OriginalFilename", "doggo_sachverstaendigen_trainer.exe" "\0"
-            VALUE "ProductName", "doggo_sachverstaendigen_trainer" "\0"
+            VALUE "OriginalFilename", "doggo_knowledge_trainer.exe" "\0"
+            VALUE "ProductName", "doggo_knowledge_trainer" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

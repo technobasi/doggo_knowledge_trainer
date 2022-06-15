@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.shadowox.doggo_sachverstaendigen_trainer">
+    package="de.shadowox.doggo_knowledge_trainer">
    <application
-        android:label="doggo_sachverstaendigen_trainer"
+        android:label="doggo_knowledge_trainer"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

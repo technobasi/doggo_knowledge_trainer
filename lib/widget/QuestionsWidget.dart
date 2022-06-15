@@ -1,4 +1,4 @@
-import 'package:doggo_sachverstaendigen_trainer/model/Question.dart';
+import 'package:doggo_knowledge_trainer/model/Question.dart';
 import 'package:flutter/material.dart';
 
 class QuestionWidget extends StatefulWidget {

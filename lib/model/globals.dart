@@ -1,4 +1,4 @@
-library doggo_sachverstaendigen_trainer.globals;
+library doggo_knowledge_trainer.globals;
 
 Map<String, String> questionCatalog =
 {
