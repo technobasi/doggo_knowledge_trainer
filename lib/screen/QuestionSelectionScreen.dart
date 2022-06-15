@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'TrainingScreen.dart';
 import '../model/globals.dart' as globals;
 
 class QuestionSelectionScreen extends StatelessWidget {
   static String routeName = "/";
   const QuestionSelectionScreen({Key? key}) : super(key: key);
-
+  static final Uri _githubUrl = Uri.parse('https://github.com/technobasi/doggo_sachverstaendigen_trainer');
+  static final Uri _kofiUrl = Uri.parse('https://ko-fi.com/shadowox');
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,7 +43,45 @@ class QuestionSelectionScreen extends StatelessWidget {
                       ),
                     ),
                   ))
-              .toList()
+              .toList(),
+          GestureDetector(
+            onTap: () async {
+              print("test");
+              if(!await launchUrl(_kofiUrl)) throw 'Could not launch $_kofiUrl';
+            },
+            child: SizedBox(
+                width: 300,
+                child: Image.asset("support/kofi-button.png")),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          GestureDetector(
+            onTap: () async {
+              if(!await launchUrl(_githubUrl)) throw 'Could not launch $_githubUrl';
+            },
+            child: Container(
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                border: Border.all(
+                  color: Colors.black,
+                  width: 2
+                )
+              ),
+              child: SizedBox(width: 300,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Image.asset("support/github.png"),
+                      Text("Contribute on GithHub"),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          )
         ],
       ),
     );
