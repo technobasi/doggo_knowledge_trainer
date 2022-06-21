@@ -44,7 +44,7 @@ class QuestionSelectionScreen extends StatelessWidget {
                     ),
                   ))
               .toList(),
-          GestureDetector(
+      /*    GestureDetector(
             onTap: () async {
               if(!await launchUrl(_kofiUrl)) throw 'Could not launch $_kofiUrl';
             },
@@ -54,7 +54,7 @@ class QuestionSelectionScreen extends StatelessWidget {
           ),
           SizedBox(
             height: 10,
-          ),
+          ),*/
           GestureDetector(
             onTap: () async {
               if(!await launchUrl(_githubUrl)) throw 'Could not launch $_githubUrl';
