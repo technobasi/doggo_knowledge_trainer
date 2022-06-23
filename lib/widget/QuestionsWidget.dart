@@ -1,3 +1,4 @@
+import 'package:doggo_knowledge_trainer/model/Answer.dart';
 import 'package:doggo_knowledge_trainer/model/Question.dart';
 import 'package:flutter/material.dart';
 
@@ -80,14 +81,10 @@ class _QuestionWidgetState extends State<QuestionWidget> {
                           child: Container(
                             decoration: BoxDecoration(
                                 border: Border.all(
-                                    color: answer.isCorrect == answer.userAnswer
-                                        ? Colors.green
-                                        : Colors.red
+                                    color: selectColor(answer)
                                 ),
                                 borderRadius: BorderRadius.circular(SPACING),
-                                color: answer.isCorrect == answer.userAnswer
-                                    ? Colors.green
-                                    : Colors.red
+                                color: selectColor(answer)
                             ),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -129,5 +126,15 @@ class _QuestionWidgetState extends State<QuestionWidget> {
             ],
           ),
         ));
+  }
+
+  Color selectColor(Answer answer) {
+    if(answer.isCorrect == true && answer.userAnswer == true) {
+      return Colors.green;
+    }else if(answer.userAnswer == answer.isCorrect){
+      return Colors.transparent;
+    } else {
+      return Colors.red;
+    }
   }
 }
